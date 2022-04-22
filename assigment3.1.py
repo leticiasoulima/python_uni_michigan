@@ -7,12 +7,12 @@
 
 hr = input('Enter Hours: ')
 try :
-    h = int (hr)
+    h = float(hr)
 except :
     print('Not a number')
 rate = input('Enter Rate: ')
 try :
-    rt = float (rate)
+    rt = float(rate)
 except :     
     print('Not a number')
     
