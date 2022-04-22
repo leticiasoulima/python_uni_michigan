@@ -17,7 +17,7 @@ except :
     print('Not a number')
     
 if h <= 40 :
-	payment = h * rt
+    payment = h * rt
 else :
     payment = (40 * rt  + ( h - 40) * 1.5 * rt)
 print(payment)
