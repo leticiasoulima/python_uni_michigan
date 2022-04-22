@@ -18,7 +18,6 @@ except :
     
 if h <= 40 :
 	payment = h * rt
-    	print(payament)
 else :
     payment = (40 * rt  + ( h - 40) * 1.5 * rt)
 print(payment)
